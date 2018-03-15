@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.cqe.customseebar.MainActivity"
+    android:background="@color/colorAccent">
+
+
+    <com.example.cqe.customseebar.HSeeBarLevelView
+        android:id="@+id/levelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backColor="@android:color/transparent"
+        app:endProgress="200"
+        app:foreColor="#09FFE6"
+        app:pointIcon="@mipmap/ic_point_gray"
+        app:progressTextSize="16sp"
+        app:rectCorn="2dp"
+        app:scurrProgress="0"
+        app:startProgress="0"
+        app:textBackColor="@color/colorBlackWhite"
+        app:textColor="#ffffff" />
+
+</LinearLayout>
