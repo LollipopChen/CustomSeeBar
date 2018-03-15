@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind( this ); //使用框架绑定控件
         //设置值：开始值，总值，当前值
+        //TODO 注意：在列表中使用时，布局外需要裹一层父布局，否则不显示
         hSeeBarLevelView.resetLevelProgress(0f, 1000, 500);
     }
 }
